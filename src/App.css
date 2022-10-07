@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -43,35 +44,35 @@
   top: 0;
 }
 
-.sticky-top2{
+.sticky-top2 {
   position: sticky;
-    top: 90px;
+  top: 90px;
 }
 
-.order-pending{
+.order-pending {
   background-color: paleturquoise;
-  border:1px solid lightblue;
+  border: 1px solid lightblue;
   border-radius: 5px;
 }
 
-.order-success{
+.order-success {
   background-color: palegreen;
-  border:1px solid green;
+  border: 1px solid green;
   border-radius: 5px;
 }
 
-.order-rejected{
-  background:mistyrose;
-  border:1px solid red;
+.order-rejected {
+  background: mistyrose;
+  border: 1px solid red;
   border-radius: 5px;
 }
 
-.order-elem{
+.order-elem {
   margin-left: 400px;
   margin-right: 400px;
   border-radius: 5px;
 }
 
 .link_hover:hover {
-  background-color:cornflowerblue;
+  background-color: cornflowerblue;
 }
